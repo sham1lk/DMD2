@@ -1,0 +1,19 @@
+{
+  "name": "dmd",
+  "version": "1.0.0",
+  "description": "dmd assignment",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nikita Aleschenko",
+  "license": "ISC",
+  "dependencies": {
+    "cloc": "^2.5.1",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.2",
+    "pg": "^7.18.2",
+    "sequelize": "^5.21.5",
+    "stats": "^1.0.0"
+  }
+}
