@@ -20,7 +20,6 @@ async function main(){
 	var cust = readlineSync.question('enter customer id ');
 	
 	cus = await Customer.findOne({'customer_id': cust});
-	console.log(cus._id);
 
 	list =await Rental.find({'customer': cus._id}).populate([
         {

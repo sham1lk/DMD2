@@ -21,9 +21,9 @@ async function countActors(){
 async function main(){
 	let num = await countActors();
 	let table = new Array(num);
-	for (let i=1; i <=num; i++) 
+	for (let i=0; i <=num; i++) 
 		table[i] = new Array(num);
-	for (let i = 1; i <= num; i++) {
+	for (let i = 0; i <= num; i++) {
 		for (let j = 0; j < num; j++) {
 			table[i][j]=0;
 		}
